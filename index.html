@@ -999,33 +999,6 @@
             }
         }
         createParticles();
-    <!-- Footer -->
-    <footer>
-        <p>Made with ❤️ by <a href="https://github.com/SUDEEPBOTS" target="_blank">SUDEEPBOTS</a></p>
-        <p>&copy; 2024 All Rights Reserved</p>
-    </footer>
-
-    <script>
-        // Hide loader when page loads
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.getElementById('loader').classList.add('hidden');
-            }, 1500);
-        });
-
-        // Create particles
-        function createParticles() {
-            const container = document.getElementById('particles');
-            for (let i = 0; i < 50; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.animationDelay = Math.random() * 15 + 's';
-                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-                container.appendChild(particle);
-            }
-        }
-        createParticles();
 
         // Typing effect
         const texts = ['Developer', 'Creator', 'Innovator', 'SUDEEPBOTS'];
